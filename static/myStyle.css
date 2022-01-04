@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+
+h1 {
+    font: small-caps bold 50px sans-serif;
+    text-align:left;
+}
+body {
+
+    font-family: 'Gugi', cursive;
+    background-color: blanchedalmond;
+}
+#grid {
+    display:grid;
+    grid-template-columns: 200px 300px;
+}
+#setting {
+    border-right: 1px gray solid;
+    width:200px;
+    margin:0px;
+}
+#main {
+    padding-left: 30px;
+}
+
+
+.button {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid skyblue;
+
+    padding:5px;
+    color:white;
+    background-color: skyblue;
+    
+}
+.button:hover {
+    border: 1px solid white;
+    color: skyblue;
+    background-color:white;
+}
+
+#connectBtn {
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px;
+    margin-right:-4px;
+}
+#disconnectBtn {
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 
+    5px; margin-left:-3px;
+}
+
+
+.print_time {
+    font-size:35px;
+}
